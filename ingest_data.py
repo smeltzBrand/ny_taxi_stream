@@ -21,8 +21,15 @@ def main(params):
     port = os.getenv('POSTGRES_PORT')
     db = os.getenv('POSTGRES_DB')
     table_name = os.getenv('TABLE_NAME')
-    url = os.getenv('DATA_URL')
-
+    if params[0] == "yellow":
+        url = os.getenv('DATA_URL_YELLOW')
+        table_name = 'yellow_taxi_trips'
+    elif params[0] == "green":
+        url = os.getenv('DATA_URL_GREEN')
+        table_name = 'green_taxi_trips'    
+    elif params[0] == "zone":
+        url = os.getenv('DATA_URL_ZONES')
+        table_name = 'taxi_zones' 
     if not all([user, password, host, port, db, table_name, url]):
         raise ValueError("One or more environment variables are missing")
 
@@ -47,10 +54,11 @@ def main(params):
 
             df = next(df_iter)
 
-            df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
-            df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
+            if params[0] == "yellow":
+                df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
+                df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
 
-            df.to_sql(name='yellow_taxi_trips', con=engine, if_exists='append')
+            df.to_sql(name=table_name, con=engine, if_exists='append')
 
             t_end = time()
 
