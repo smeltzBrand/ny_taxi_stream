@@ -1,0 +1,26 @@
+[2024-10-10T17:41:29.081+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: green_data_ingestion_gcs_dag.download_dataset_task scheduled__2024-10-09T00:00:00+00:00 [queued]>
+[2024-10-10T17:41:29.084+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: green_data_ingestion_gcs_dag.download_dataset_task scheduled__2024-10-09T00:00:00+00:00 [queued]>
+[2024-10-10T17:41:29.084+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2024-10-10T17:41:29.088+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): download_dataset_task> on 2024-10-09 00:00:00+00:00
+[2024-10-10T17:41:29.091+0000] {standard_task_runner.py:57} INFO - Started process 29834 to run task
+[2024-10-10T17:41:29.092+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'green_data_ingestion_gcs_dag', 'download_dataset_task', 'scheduled__2024-10-09T00:00:00+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/green_data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmplyi8uoyt']
+[2024-10-10T17:41:29.093+0000] {standard_task_runner.py:85} INFO - Job 33: Subtask download_dataset_task
+[2024-10-10T17:41:29.114+0000] {task_command.py:416} INFO - Running <TaskInstance: green_data_ingestion_gcs_dag.download_dataset_task scheduled__2024-10-09T00:00:00+00:00 [running]> on host 72e947e9fa68
+[2024-10-10T17:41:29.138+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='green_data_ingestion_gcs_dag' AIRFLOW_CTX_TASK_ID='download_dataset_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-09T00:00:00+00:00'
+[2024-10-10T17:41:33.087+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/green_data_ingestion_gcs_dag.py", line 45, in download_data_and_concat
+    pq.write_table(final_pf, f"{path_to_local_home}/{dataset_file}")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyarrow/parquet/core.py", line 3072, in write_table
+    where, table.schema,
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'schema'
+[2024-10-10T17:41:33.092+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=green_data_ingestion_gcs_dag, task_id=download_dataset_task, execution_date=20241009T000000, start_date=20241010T174129, end_date=20241010T174133
+[2024-10-10T17:41:33.097+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 33 for task download_dataset_task ('DataFrame' object has no attribute 'schema'; 29834)
+[2024-10-10T17:41:33.108+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-10-10T17:41:33.119+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

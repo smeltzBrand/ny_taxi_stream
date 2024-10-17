@@ -1,0 +1,11 @@
+[2024-10-10T20:55:29.786+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-10T20:55:28.524201+00:00 [queued]>
+[2024-10-10T20:55:29.790+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-10T20:55:28.524201+00:00 [queued]>
+[2024-10-10T20:55:29.790+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-10-10T20:55:29.795+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): download_dataset_task> on 2024-10-10 20:55:28.524201+00:00
+[2024-10-10T20:55:29.798+0000] {standard_task_runner.py:57} INFO - Started process 32002 to run task
+[2024-10-10T20:55:29.800+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'yellow_data_ingestion_gcs_dag', 'download_dataset_task', 'manual__2024-10-10T20:55:28.524201+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/yellow_data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpp3fhwjh1']
+[2024-10-10T20:55:29.800+0000] {standard_task_runner.py:85} INFO - Job 46: Subtask download_dataset_task
+[2024-10-10T20:55:29.821+0000] {task_command.py:416} INFO - Running <TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-10T20:55:28.524201+00:00 [running]> on host 72e947e9fa68
+[2024-10-10T20:55:29.851+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='yellow_data_ingestion_gcs_dag' AIRFLOW_CTX_TASK_ID='download_dataset_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-10T20:55:28.524201+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-10T20:55:28.524201+00:00'
+[2024-10-10T20:56:18.306+0000] {local_task_job_runner.py:228} INFO - Task exited with return code -9
+[2024-10-10T20:56:18.324+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
