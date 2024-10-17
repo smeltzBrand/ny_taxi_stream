@@ -1,0 +1,37 @@
+[2024-10-15T22:06:00.175+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-15T21:30:53.149491+00:00 [queued]>
+[2024-10-15T22:06:00.179+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-15T21:30:53.149491+00:00 [queued]>
+[2024-10-15T22:06:00.179+0000] {taskinstance.py:1361} INFO - Starting attempt 7 of 7
+[2024-10-15T22:06:00.184+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): download_dataset_task> on 2024-10-15 21:30:53.149491+00:00
+[2024-10-15T22:06:00.186+0000] {standard_task_runner.py:57} INFO - Started process 303 to run task
+[2024-10-15T22:06:00.188+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'yellow_data_ingestion_gcs_dag', 'download_dataset_task', 'manual__2024-10-15T21:30:53.149491+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/yellow_data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpsl166_xb']
+[2024-10-15T22:06:00.188+0000] {standard_task_runner.py:85} INFO - Job 83: Subtask download_dataset_task
+[2024-10-15T22:06:00.206+0000] {task_command.py:416} INFO - Running <TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-15T21:30:53.149491+00:00 [running]> on host 63fbd9348e70
+[2024-10-15T22:06:00.238+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='yellow_data_ingestion_gcs_dag' AIRFLOW_CTX_TASK_ID='download_dataset_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-15T21:30:53.149491+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-15T21:30:53.149491+00:00'
+[2024-10-15T22:06:02.252+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-01.parquet
+[2024-10-15T22:30:17.672+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/yellow_data_ingestion_gcs_dag.py", line 46, in download_data_and_concat
+    pf = pd.read_parquet(url)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 509, in read_parquet
+    return impl.read(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 220, in read
+    path_or_handle, handles, kwargs["filesystem"] = _get_path_or_handle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 110, in _get_path_or_handle
+    handles = get_handle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 716, in get_handle
+    ioargs = _get_filepath_or_buffer(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 373, in _get_filepath_or_buffer
+    reader = BytesIO(req.read())
+  File "/usr/local/lib/python3.8/http/client.py", line 472, in read
+    s = self._safe_read(self.length)
+  File "/usr/local/lib/python3.8/http/client.py", line 615, in _safe_read
+    raise IncompleteRead(data, amt-len(data))
+http.client.IncompleteRead: IncompleteRead(15154674 bytes read, 22985275 more expected)
+[2024-10-15T22:30:17.694+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=yellow_data_ingestion_gcs_dag, task_id=download_dataset_task, execution_date=20241015T213053, start_date=20241015T220600, end_date=20241015T223017
+[2024-10-15T22:30:17.704+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 83 for task download_dataset_task (IncompleteRead(15154674 bytes read, 22985275 more expected); 303)
+[2024-10-15T22:30:17.713+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-10-15T22:30:17.728+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

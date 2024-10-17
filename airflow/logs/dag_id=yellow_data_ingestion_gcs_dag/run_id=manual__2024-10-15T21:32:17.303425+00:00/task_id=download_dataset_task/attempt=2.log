@@ -1,0 +1,23 @@
+[2024-10-15T21:48:49.922+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-15T21:32:17.303425+00:00 [queued]>
+[2024-10-15T21:48:49.925+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-15T21:32:17.303425+00:00 [queued]>
+[2024-10-15T21:48:49.925+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 3
+[2024-10-15T21:48:49.929+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): download_dataset_task> on 2024-10-15 21:32:17.303425+00:00
+[2024-10-15T21:48:49.931+0000] {standard_task_runner.py:57} INFO - Started process 87 to run task
+[2024-10-15T21:48:49.932+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'yellow_data_ingestion_gcs_dag', 'download_dataset_task', 'manual__2024-10-15T21:32:17.303425+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/yellow_data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp57urqgvc']
+[2024-10-15T21:48:49.933+0000] {standard_task_runner.py:85} INFO - Job 80: Subtask download_dataset_task
+[2024-10-15T21:48:49.948+0000] {task_command.py:416} INFO - Running <TaskInstance: yellow_data_ingestion_gcs_dag.download_dataset_task manual__2024-10-15T21:32:17.303425+00:00 [running]> on host 63fbd9348e70
+[2024-10-15T21:48:49.972+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='yellow_data_ingestion_gcs_dag' AIRFLOW_CTX_TASK_ID='download_dataset_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-15T21:32:17.303425+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-15T21:32:17.303425+00:00'
+[2024-10-15T21:48:51.978+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-01.parquet
+[2024-10-15T21:48:57.182+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-02.parquet
+[2024-10-15T21:49:02.782+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-03.parquet
+[2024-10-15T21:49:09.243+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-04.parquet
+[2024-10-15T21:49:15.649+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-05.parquet
+[2024-10-15T21:49:22.163+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-06.parquet
+[2024-10-15T21:49:28.507+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-07.parquet
+[2024-10-15T21:49:34.531+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-08.parquet
+[2024-10-15T21:49:40.987+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-09.parquet
+[2024-10-15T21:49:47.124+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-10.parquet
+[2024-10-15T21:49:54.780+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-11.parquet
+[2024-10-15T21:50:00.952+0000] {logging_mixin.py:154} INFO - Requesting URL: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-12.parquet
+[2024-10-15T21:50:07.915+0000] {local_task_job_runner.py:228} INFO - Task exited with return code -9
+[2024-10-15T21:50:07.937+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
