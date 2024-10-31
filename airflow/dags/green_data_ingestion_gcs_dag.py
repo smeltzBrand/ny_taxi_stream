@@ -1,5 +1,7 @@
 import os
 import logging
+import requests
+import io
 
 from airflow import DAG
 from airflow.utils.dates import days_ago
@@ -31,20 +33,30 @@ def format_to_parquet(src_file):
     pq.write_table(table, src_file.replace('.csv', '.parquet'))
 
 def download_data_and_concat():
-    pfs = []
-    parse_dates = ['lpep_pickup_datetime', 'lpep_dropoff_datetime']
+    pq_writer = None
     
     for i in range(1,13):
-        if i < 10:
-            url = f'https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-0{i}.parquet' 
-        elif i < 13:
-            url = f'https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-{i}.parquet'
-        pf = pd.read_parquet(url)
-        pfs.append(pf)
+        padded_i = str(i).zfill(2)
+        
+        url = f'https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-{padded_i}.parquet' 
+        print(f"Requesting URL: {url}")
+        
+        #Download the parquet file into memory
+        response = requests.get(url)
+        response.raise_for_status()
 
-    final_pf = pd.concat(pfs, ignore_index=True)
-    final_table = pa.Table.from_pandas(final_pf)
-    pq.write_table(final_table, f"{path_to_local_home}/{dataset_file}")
+        #Read the parquet from bytes into a PyArrow Table
+        table = pq.read_table(io.BytesIO(response.content))
+
+        #Write incrementally to the final parquet file
+        if pq_writer is None:
+            pq_writer = pq.ParquetWriter(f"{path_to_local_home}/{dataset_file}", table.schema)
+
+        pq_writer.write_table(table)
+
+    if pq_writer:
+        pq_writer.close()
+
 
 # NOTE: takes 20 mins, at an upload speed of 800kbps. Faster if your internet has a better upload speed
 def upload_to_gcs(bucket, object_name, local_file):
@@ -116,7 +128,7 @@ with DAG(
             "tableReference": {
                 "projectId": PROJECT_ID,
                 "datasetId": BIGQUERY_DATASET,
-                "tableId": "external_table",
+                "tableId": "green_tripdata",
             },
             "externalDataConfiguration": {
                 "sourceFormat": "PARQUET",

@@ -1,0 +1,1166 @@
+[2024-10-31T15:31:36.243+0000] {processor.py:157} INFO - Started process (PID=56) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:31:36.243+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:31:36.244+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:31:36.244+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:31:36.259+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:31:36.303+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:31:36.303+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-31T15:31:36.307+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:31:36.307+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-31T15:31:36.309+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:31:36.309+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-31T15:31:36.310+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:31:36.310+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:31:36.315+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:31:36.315+0000] {dag.py:2963} INFO - Creating ORM DAG for zone_data_ingestion_gcs_dag
+[2024-10-31T15:31:36.452+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:31:36.452+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:31:36.459+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.218 seconds
+[2024-10-31T15:32:06.848+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:32:06.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:32:06.850+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:32:06.850+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:32:06.859+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:32:06.868+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:32:06.867+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:32:06.951+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:32:06.951+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:32:06.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.110 seconds
+[2024-10-31T15:32:37.163+0000] {processor.py:157} INFO - Started process (PID=167) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:32:37.164+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:32:37.165+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:32:37.165+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:32:37.174+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:32:37.182+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:32:37.182+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:32:37.190+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:32:37.189+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:32:37.275+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.113 seconds
+[2024-10-31T15:33:07.622+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:33:07.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:33:07.623+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:33:07.623+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:33:07.632+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:33:07.640+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:33:07.640+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:33:07.648+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:33:07.648+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:33:07.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.033 seconds
+[2024-10-31T15:33:38.392+0000] {processor.py:157} INFO - Started process (PID=279) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:33:38.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:33:38.393+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:33:38.393+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:33:38.402+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:33:38.410+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:33:38.410+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:33:38.491+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:33:38.491+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:33:38.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.106 seconds
+[2024-10-31T15:34:08.930+0000] {processor.py:157} INFO - Started process (PID=335) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:34:08.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:34:08.932+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:34:08.932+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:34:08.945+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:34:08.953+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:34:08.953+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:34:09.047+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:34:09.047+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:34:09.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.125 seconds
+[2024-10-31T15:34:39.266+0000] {processor.py:157} INFO - Started process (PID=391) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:34:39.266+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:34:39.267+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:34:39.267+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:34:39.277+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:34:39.286+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:34:39.286+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:34:39.295+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:34:39.294+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:34:39.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:35:09.915+0000] {processor.py:157} INFO - Started process (PID=447) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:35:09.915+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:35:09.916+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:35:09.916+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:35:09.926+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:35:10.009+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:35:10.008+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:35:10.015+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:35:10.015+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:35:10.022+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.108 seconds
+[2024-10-31T15:35:40.940+0000] {processor.py:157} INFO - Started process (PID=503) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:35:40.941+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:35:40.942+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:35:40.942+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:35:40.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:35:40.960+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:35:40.960+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:35:41.051+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:35:41.051+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:35:41.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.119 seconds
+[2024-10-31T15:36:11.594+0000] {processor.py:157} INFO - Started process (PID=559) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:36:11.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:36:11.596+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:36:11.596+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:36:11.605+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:36:11.613+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:36:11.613+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:36:11.695+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:36:11.695+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:36:11.702+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.109 seconds
+[2024-10-31T15:36:42.005+0000] {processor.py:157} INFO - Started process (PID=615) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:36:42.006+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:36:42.007+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:36:42.006+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:36:42.091+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:36:42.097+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:36:42.097+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:36:42.104+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:36:42.104+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:36:42.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.107 seconds
+[2024-10-31T15:37:12.572+0000] {processor.py:157} INFO - Started process (PID=671) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:37:12.572+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:37:12.573+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:37:12.573+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:37:12.582+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:37:12.591+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:37:12.591+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:37:12.599+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:37:12.599+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:37:12.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T15:37:43.002+0000] {processor.py:157} INFO - Started process (PID=727) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:37:43.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:37:43.004+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:37:43.004+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:37:43.014+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:37:43.023+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:37:43.022+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:37:43.031+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:37:43.030+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:37:43.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:38:13.500+0000] {processor.py:157} INFO - Started process (PID=783) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:38:13.501+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:38:13.502+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:38:13.502+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:38:13.513+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:38:13.522+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:38:13.521+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:38:13.531+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:38:13.531+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:38:13.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.039 seconds
+[2024-10-31T15:38:43.999+0000] {processor.py:157} INFO - Started process (PID=839) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:38:44.000+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:38:44.001+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:38:44.001+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:38:44.011+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:38:44.020+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:38:44.020+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:38:44.028+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:38:44.028+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:38:44.034+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.037 seconds
+[2024-10-31T15:39:14.459+0000] {processor.py:157} INFO - Started process (PID=895) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:39:14.460+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:39:14.461+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:39:14.461+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:39:14.471+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:39:14.479+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:39:14.479+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:39:14.488+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:39:14.488+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:39:14.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:39:44.847+0000] {processor.py:157} INFO - Started process (PID=951) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:39:44.847+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:39:44.848+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:39:44.848+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:39:44.859+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:39:44.868+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:39:44.868+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:39:44.877+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:39:44.877+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:39:44.884+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.038 seconds
+[2024-10-31T15:40:15.265+0000] {processor.py:157} INFO - Started process (PID=1007) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:40:15.265+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:40:15.266+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:40:15.266+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:40:15.276+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:40:15.284+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:40:15.284+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:40:15.293+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:40:15.293+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:40:15.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:40:45.681+0000] {processor.py:157} INFO - Started process (PID=1063) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:40:45.681+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:40:45.682+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:40:45.682+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:40:45.692+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:40:45.700+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:40:45.700+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:40:45.708+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:40:45.708+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:40:45.715+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:41:16.096+0000] {processor.py:157} INFO - Started process (PID=1119) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:41:16.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:41:16.098+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:41:16.098+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:41:16.112+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:41:16.124+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:41:16.123+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:41:16.134+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:41:16.134+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:41:16.140+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.046 seconds
+[2024-10-31T15:41:46.504+0000] {processor.py:157} INFO - Started process (PID=1175) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:41:46.504+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:41:46.505+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:41:46.505+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:41:46.517+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:41:46.527+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:41:46.527+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:41:46.537+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:41:46.536+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:41:46.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.041 seconds
+[2024-10-31T15:42:17.111+0000] {processor.py:157} INFO - Started process (PID=1231) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:42:17.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:42:17.112+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:42:17.112+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:42:17.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:42:17.131+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:42:17.131+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:42:17.139+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:42:17.139+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:42:17.145+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:42:47.585+0000] {processor.py:157} INFO - Started process (PID=1287) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:42:47.585+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:42:47.586+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:42:47.586+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:42:47.597+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:42:47.605+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:42:47.605+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:42:47.614+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:42:47.614+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:42:47.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.038 seconds
+[2024-10-31T15:43:17.965+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:43:17.965+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:43:17.966+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:43:17.966+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:43:17.977+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:43:17.985+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:43:17.985+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:43:17.994+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:43:17.994+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:43:18.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.037 seconds
+[2024-10-31T15:43:48.444+0000] {processor.py:157} INFO - Started process (PID=1399) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:43:48.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:43:48.445+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:43:48.445+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:43:48.456+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:43:48.465+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:43:48.464+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:43:48.473+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:43:48.473+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:43:48.479+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.037 seconds
+[2024-10-31T15:44:18.994+0000] {processor.py:157} INFO - Started process (PID=1455) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:44:18.995+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:44:18.996+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:44:18.996+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:44:19.006+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:44:19.015+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:44:19.015+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:44:19.024+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:44:19.024+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:44:19.029+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:44:49.495+0000] {processor.py:157} INFO - Started process (PID=1511) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:44:49.496+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:44:49.497+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:44:49.497+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:44:49.507+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:44:49.516+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:44:49.516+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:44:49.525+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:44:49.525+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:44:49.531+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.037 seconds
+[2024-10-31T15:45:19.970+0000] {processor.py:157} INFO - Started process (PID=1569) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:45:19.971+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:45:19.972+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:45:19.972+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:45:19.981+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:45:19.989+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:45:19.989+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:45:19.998+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:45:19.998+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:45:20.005+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:45:50.502+0000] {processor.py:157} INFO - Started process (PID=1625) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:45:50.503+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:45:50.505+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:45:50.504+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:45:50.519+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:45:50.528+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:45:50.528+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:45:50.538+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:45:50.538+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:45:50.545+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.045 seconds
+[2024-10-31T15:46:20.954+0000] {processor.py:157} INFO - Started process (PID=1681) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:46:20.955+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:46:20.956+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:46:20.956+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:46:20.967+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:46:20.977+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:46:20.977+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:46:20.987+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:46:20.987+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:46:20.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.042 seconds
+[2024-10-31T15:46:51.459+0000] {processor.py:157} INFO - Started process (PID=1737) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:46:51.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:46:51.461+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:46:51.461+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:46:51.475+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:46:51.485+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:46:51.485+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:46:51.495+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:46:51.495+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:46:51.503+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.047 seconds
+[2024-10-31T15:47:03.535+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:47:03.536+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:47:03.536+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:47:03.536+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:47:03.547+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:47:03.557+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:47:03.556+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:47:03.566+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:47:03.566+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:47:03.572+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.039 seconds
+[2024-10-31T15:47:34.008+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:47:34.008+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:47:34.009+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:47:34.009+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:47:34.019+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:47:34.028+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:47:34.027+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:47:34.036+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:47:34.036+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:47:34.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:48:04.425+0000] {processor.py:157} INFO - Started process (PID=167) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:48:04.425+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:48:04.426+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:48:04.426+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:48:04.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:48:04.444+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:48:04.444+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:48:04.453+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:48:04.452+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:48:04.458+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T15:48:34.821+0000] {processor.py:157} INFO - Started process (PID=226) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:48:34.821+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:48:34.823+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:48:34.823+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:48:34.835+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:48:34.845+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:48:34.845+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:48:34.855+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:48:34.855+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:48:34.862+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.044 seconds
+[2024-10-31T15:49:05.239+0000] {processor.py:157} INFO - Started process (PID=281) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:05.240+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:49:05.241+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:05.241+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:05.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:05.263+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:05.262+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:49:05.273+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:05.272+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:49:05.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.043 seconds
+[2024-10-31T15:49:15.293+0000] {processor.py:157} INFO - Started process (PID=55) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:15.294+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:49:15.294+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:15.294+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:15.305+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:15.314+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:15.313+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:49:15.322+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:15.322+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:49:15.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:49:45.854+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:45.854+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:49:45.857+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:45.856+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:45.870+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:49:45.878+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:45.877+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:49:45.886+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:49:45.886+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:49:45.892+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.039 seconds
+[2024-10-31T15:50:16.312+0000] {processor.py:157} INFO - Started process (PID=167) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:50:16.313+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:50:16.314+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:50:16.314+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:50:16.323+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:50:16.331+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:50:16.331+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:50:16.340+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:50:16.340+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:50:16.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T15:50:46.732+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:50:46.732+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:50:46.733+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:50:46.733+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:50:46.742+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:50:46.751+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:50:46.751+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:50:46.759+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:50:46.759+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:50:46.765+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T15:51:17.184+0000] {processor.py:157} INFO - Started process (PID=279) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:51:17.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:51:17.186+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:51:17.186+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:51:17.198+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:51:17.209+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:51:17.209+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:51:17.218+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:51:17.218+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:51:17.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.043 seconds
+[2024-10-31T15:51:47.745+0000] {processor.py:157} INFO - Started process (PID=335) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:51:47.746+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:51:47.747+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:51:47.747+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:51:47.758+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:51:47.767+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:51:47.767+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:51:47.776+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:51:47.776+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:51:47.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.040 seconds
+[2024-10-31T15:52:18.158+0000] {processor.py:157} INFO - Started process (PID=391) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:52:18.158+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:52:18.159+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:52:18.159+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:52:18.168+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:52:18.177+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:52:18.176+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:52:18.185+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:52:18.185+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:52:18.191+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T15:52:48.588+0000] {processor.py:157} INFO - Started process (PID=447) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:52:48.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:52:48.589+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:52:48.589+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:52:48.598+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:52:48.606+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:52:48.606+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:52:48.614+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:52:48.614+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:52:48.620+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T15:53:19.021+0000] {processor.py:157} INFO - Started process (PID=503) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:53:19.021+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:53:19.022+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:53:19.022+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:53:19.031+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:53:19.040+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:53:19.040+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:53:19.048+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:53:19.048+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:53:19.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T15:53:49.408+0000] {processor.py:157} INFO - Started process (PID=559) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:53:49.409+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:53:49.410+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:53:49.410+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:53:49.419+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:53:49.428+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:53:49.428+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:53:49.436+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:53:49.436+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-30T00:00:00+00:00, run_after=2024-10-31T00:00:00+00:00
+[2024-10-31T15:53:49.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T15:54:19.811+0000] {processor.py:157} INFO - Started process (PID=615) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:54:19.812+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:54:19.813+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:54:19.812+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:54:19.823+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:54:19.831+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:54:19.831+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:54:19.840+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:54:19.840+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:54:19.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T15:54:50.245+0000] {processor.py:157} INFO - Started process (PID=671) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:54:50.245+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:54:50.246+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:54:50.246+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:54:50.255+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:54:50.263+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:54:50.263+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:54:50.272+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:54:50.272+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:54:50.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T15:55:20.764+0000] {processor.py:157} INFO - Started process (PID=727) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:55:20.765+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:55:20.766+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:55:20.765+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:55:20.775+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:55:20.783+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:55:20.783+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:55:20.792+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:55:20.792+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:55:20.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.120 seconds
+[2024-10-31T15:55:51.785+0000] {processor.py:157} INFO - Started process (PID=783) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:55:51.786+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:55:51.786+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:55:51.786+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:55:51.795+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:55:51.804+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:55:51.804+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:55:51.812+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:55:51.812+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:55:51.817+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T15:56:22.412+0000] {processor.py:157} INFO - Started process (PID=839) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:56:22.413+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:56:22.414+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:56:22.414+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:56:22.422+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:56:22.431+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:56:22.431+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:56:22.439+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:56:22.439+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:56:22.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T15:56:52.843+0000] {processor.py:157} INFO - Started process (PID=895) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:56:52.843+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:56:52.844+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:56:52.844+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:56:52.853+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:56:52.861+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:56:52.861+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:56:52.869+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:56:52.869+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:56:52.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T15:57:23.359+0000] {processor.py:157} INFO - Started process (PID=951) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:57:23.360+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:57:23.361+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:57:23.361+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:57:23.369+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:57:23.377+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:57:23.377+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:57:23.457+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:57:23.457+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:57:23.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.106 seconds
+[2024-10-31T15:57:53.745+0000] {processor.py:157} INFO - Started process (PID=1007) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:57:53.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:57:53.746+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:57:53.746+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:57:53.755+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:57:53.763+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:57:53.762+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:57:53.771+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:57:53.771+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:57:53.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.105 seconds
+[2024-10-31T15:58:24.360+0000] {processor.py:157} INFO - Started process (PID=1063) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:58:24.361+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:58:24.361+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:58:24.361+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:58:24.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:58:24.379+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:58:24.379+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:58:24.387+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:58:24.387+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:58:24.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T15:58:55.181+0000] {processor.py:157} INFO - Started process (PID=1119) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:58:55.182+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:58:55.183+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:58:55.183+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:58:55.192+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:58:55.201+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:58:55.200+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:58:55.209+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:58:55.209+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:58:55.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.041 seconds
+[2024-10-31T15:59:25.779+0000] {processor.py:157} INFO - Started process (PID=1175) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:59:25.779+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:59:25.780+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:59:25.780+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:59:25.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:59:25.797+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:59:25.797+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:59:25.885+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:59:25.885+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:59:25.891+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.114 seconds
+[2024-10-31T15:59:56.025+0000] {processor.py:157} INFO - Started process (PID=1231) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:59:56.025+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T15:59:56.026+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:59:56.026+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:59:56.035+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T15:59:56.043+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:59:56.043+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T15:59:56.051+0000] {logging_mixin.py:154} INFO - [2024-10-31T15:59:56.051+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T15:59:56.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.112 seconds
+[2024-10-31T16:00:26.908+0000] {processor.py:157} INFO - Started process (PID=1287) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:00:26.908+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:00:26.909+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:00:26.909+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:00:26.918+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:00:26.927+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:00:26.926+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:00:26.935+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:00:26.935+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:00:26.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:00:58.022+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:00:58.023+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:00:58.024+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:00:58.024+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:00:58.033+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:00:58.124+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:00:58.124+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:00:58.132+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:00:58.132+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:00:58.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.118 seconds
+[2024-10-31T16:01:28.198+0000] {processor.py:157} INFO - Started process (PID=1399) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:01:28.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:01:28.199+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:01:28.199+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:01:28.207+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:01:28.215+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:01:28.215+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:01:28.295+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:01:28.295+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:01:28.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.105 seconds
+[2024-10-31T16:01:58.585+0000] {processor.py:157} INFO - Started process (PID=1455) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:01:58.585+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:01:58.586+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:01:58.586+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:01:58.595+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:01:58.603+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:01:58.603+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:01:58.611+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:01:58.611+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:01:58.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:02:28.957+0000] {processor.py:157} INFO - Started process (PID=1511) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:02:28.958+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:02:28.959+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:02:28.959+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:02:28.968+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:02:29.058+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:02:29.058+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:02:29.066+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:02:29.066+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:02:29.071+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.116 seconds
+[2024-10-31T16:02:59.616+0000] {processor.py:157} INFO - Started process (PID=1567) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:02:59.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:02:59.619+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:02:59.619+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:02:59.634+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:02:59.645+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:02:59.644+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:02:59.745+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:02:59.745+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:02:59.751+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.137 seconds
+[2024-10-31T16:03:30.217+0000] {processor.py:157} INFO - Started process (PID=1623) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:03:30.217+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:03:30.218+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:03:30.218+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:03:30.229+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:03:30.238+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:03:30.237+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:03:30.246+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:03:30.246+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:03:30.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.038 seconds
+[2024-10-31T16:04:00.635+0000] {processor.py:157} INFO - Started process (PID=1679) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:04:00.635+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:04:00.636+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:04:00.636+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:04:00.646+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:04:00.654+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:04:00.654+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:04:00.662+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:04:00.662+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:04:00.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:04:31.162+0000] {processor.py:157} INFO - Started process (PID=1735) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:04:31.162+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:04:31.163+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:04:31.163+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:04:31.173+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:04:31.182+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:04:31.181+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:04:31.190+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:04:31.190+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:04:31.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:05:01.581+0000] {processor.py:157} INFO - Started process (PID=1791) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:05:01.581+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:05:01.582+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:05:01.582+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:05:01.592+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:05:01.600+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:05:01.600+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:05:01.608+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:05:01.608+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:05:01.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:05:32.056+0000] {processor.py:157} INFO - Started process (PID=1847) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:05:32.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:05:32.058+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:05:32.058+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:05:32.067+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:05:32.076+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:05:32.076+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:05:32.085+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:05:32.085+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:05:32.090+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:06:02.618+0000] {processor.py:157} INFO - Started process (PID=1903) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:06:02.619+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:06:02.620+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:06:02.620+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:06:02.630+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:06:02.638+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:06:02.638+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:06:02.647+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:06:02.647+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:06:02.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:06:33.156+0000] {processor.py:157} INFO - Started process (PID=1959) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:06:33.157+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:06:33.158+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:06:33.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:06:33.169+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:06:33.177+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:06:33.176+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:06:33.185+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:06:33.185+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:06:33.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.037 seconds
+[2024-10-31T16:07:03.617+0000] {processor.py:157} INFO - Started process (PID=2015) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:07:03.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:07:03.619+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:07:03.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:07:03.629+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:07:03.637+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:07:03.637+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:07:03.645+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:07:03.645+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:07:03.651+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:07:34.108+0000] {processor.py:157} INFO - Started process (PID=2071) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:07:34.109+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:07:34.110+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:07:34.110+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:07:34.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:07:34.129+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:07:34.129+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:07:34.137+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:07:34.137+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:07:34.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:08:04.588+0000] {processor.py:157} INFO - Started process (PID=2127) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:08:04.589+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:08:04.590+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:08:04.590+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:08:04.599+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:08:04.607+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:08:04.607+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:08:04.616+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:08:04.616+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:08:04.623+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:08:35.091+0000] {processor.py:157} INFO - Started process (PID=2183) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:08:35.092+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:08:35.093+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:08:35.093+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:08:35.107+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:08:35.118+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:08:35.118+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:08:35.128+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:08:35.128+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:08:35.136+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.047 seconds
+[2024-10-31T16:09:05.575+0000] {processor.py:157} INFO - Started process (PID=2239) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:09:05.576+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:09:05.577+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:09:05.577+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:09:05.587+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:09:05.597+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:09:05.597+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:09:05.606+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:09:05.606+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:09:05.612+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.039 seconds
+[2024-10-31T16:09:36.122+0000] {processor.py:157} INFO - Started process (PID=2295) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:09:36.122+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:09:36.123+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:09:36.123+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:09:36.133+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:09:36.142+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:09:36.142+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:09:36.150+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:09:36.150+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:09:36.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:10:06.631+0000] {processor.py:157} INFO - Started process (PID=2351) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:10:06.632+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:10:06.633+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:10:06.633+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:10:06.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:10:06.650+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:10:06.650+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:10:06.659+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:10:06.658+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:10:06.665+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:10:37.151+0000] {processor.py:157} INFO - Started process (PID=2407) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:10:37.152+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:10:37.153+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:10:37.153+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:10:37.162+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:10:37.170+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:10:37.170+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:10:37.178+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:10:37.178+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:10:37.184+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:11:07.581+0000] {processor.py:157} INFO - Started process (PID=2463) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:11:07.581+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:11:07.582+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:11:07.582+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:11:07.592+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:11:07.600+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:11:07.600+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:11:07.608+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:11:07.608+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:11:07.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:11:38.113+0000] {processor.py:157} INFO - Started process (PID=2519) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:11:38.113+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:11:38.114+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:11:38.114+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:11:38.124+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:11:38.132+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:11:38.132+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:11:38.141+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:11:38.141+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:11:38.146+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:12:08.663+0000] {processor.py:157} INFO - Started process (PID=2575) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:12:08.663+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:12:08.665+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:12:08.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:12:08.676+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:12:08.685+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:12:08.685+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:12:08.695+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:12:08.694+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:12:08.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.039 seconds
+[2024-10-31T16:12:39.206+0000] {processor.py:157} INFO - Started process (PID=2631) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:12:39.206+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:12:39.207+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:12:39.207+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:12:39.217+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:12:39.225+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:12:39.225+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:12:39.233+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:12:39.233+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:12:39.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:13:09.714+0000] {processor.py:157} INFO - Started process (PID=2687) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:13:09.714+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:13:09.715+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:13:09.715+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:13:09.724+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:13:09.733+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:13:09.733+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:13:09.741+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:13:09.741+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:13:09.747+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:13:40.207+0000] {processor.py:157} INFO - Started process (PID=2743) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:13:40.207+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:13:40.208+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:13:40.208+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:13:40.218+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:13:40.226+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:13:40.226+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:13:40.235+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:13:40.234+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:13:40.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:14:10.714+0000] {processor.py:157} INFO - Started process (PID=2799) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:14:10.714+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:14:10.715+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:14:10.715+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:14:10.725+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:14:10.734+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:14:10.734+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:14:10.742+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:14:10.742+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:14:10.748+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:14:41.225+0000] {processor.py:157} INFO - Started process (PID=2855) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:14:41.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:14:41.227+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:14:41.226+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:14:41.236+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:14:41.245+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:14:41.245+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:14:41.253+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:14:41.253+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:14:41.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:15:11.703+0000] {processor.py:157} INFO - Started process (PID=2911) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:15:11.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:15:11.705+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:15:11.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:15:11.714+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:15:11.723+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:15:11.723+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:15:11.731+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:15:11.731+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:15:11.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:15:42.255+0000] {processor.py:157} INFO - Started process (PID=2967) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:15:42.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:15:42.256+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:15:42.256+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:15:42.266+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:15:42.275+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:15:42.275+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:15:42.284+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:15:42.283+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:15:42.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:16:12.775+0000] {processor.py:157} INFO - Started process (PID=3023) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:16:12.776+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:16:12.776+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:16:12.776+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:16:12.786+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:16:12.794+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:16:12.794+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:16:12.803+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:16:12.803+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:16:12.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:16:43.276+0000] {processor.py:157} INFO - Started process (PID=3079) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:16:43.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:16:43.278+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:16:43.278+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:16:43.290+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:16:43.299+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:16:43.299+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:16:43.310+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:16:43.310+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:16:43.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.042 seconds
+[2024-10-31T16:17:13.757+0000] {processor.py:157} INFO - Started process (PID=3142) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:17:13.758+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:17:13.759+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:17:13.759+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:17:13.771+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:17:13.780+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:17:13.780+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:17:13.789+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:17:13.789+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:17:13.795+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.040 seconds
+[2024-10-31T16:17:44.228+0000] {processor.py:157} INFO - Started process (PID=3198) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:17:44.228+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:17:44.229+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:17:44.229+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:17:44.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:17:44.248+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:17:44.248+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:17:44.256+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:17:44.256+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:17:44.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:18:14.716+0000] {processor.py:157} INFO - Started process (PID=3254) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:18:14.716+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:18:14.717+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:18:14.717+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:18:14.727+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:18:14.735+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:18:14.735+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:18:14.744+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:18:14.744+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:18:14.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:18:45.237+0000] {processor.py:157} INFO - Started process (PID=3310) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:18:45.238+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:18:45.239+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:18:45.238+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:18:45.247+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:18:45.256+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:18:45.256+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:18:45.264+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:18:45.264+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:18:45.270+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:19:15.675+0000] {processor.py:157} INFO - Started process (PID=3366) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:19:15.675+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:19:15.676+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:19:15.676+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:19:15.686+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:19:15.694+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:19:15.694+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:19:15.702+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:19:15.702+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:19:15.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:19:46.189+0000] {processor.py:157} INFO - Started process (PID=3422) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:19:46.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:19:46.191+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:19:46.191+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:19:46.203+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:19:46.213+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:19:46.213+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:19:46.222+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:19:46.222+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:19:46.229+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.042 seconds
+[2024-10-31T16:20:16.754+0000] {processor.py:157} INFO - Started process (PID=3478) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:20:16.754+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:20:16.755+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:20:16.755+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:20:16.764+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:20:16.772+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:20:16.772+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:20:16.781+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:20:16.781+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:20:16.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:20:47.034+0000] {processor.py:157} INFO - Started process (PID=3534) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:20:47.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:20:47.035+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:20:47.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:20:47.045+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:20:47.053+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:20:47.052+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:20:47.061+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:20:47.061+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:20:47.067+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:22:23.212+0000] {processor.py:157} INFO - Started process (PID=3547) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:22:23.213+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:22:23.214+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:22:23.214+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:22:23.223+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:22:23.231+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:22:23.231+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:22:23.240+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:22:23.240+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:22:23.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:22:53.662+0000] {processor.py:157} INFO - Started process (PID=3603) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:22:53.662+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:22:53.663+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:22:53.663+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:22:53.672+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:22:53.680+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:22:53.680+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:22:53.688+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:22:53.688+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:22:53.695+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:38:36.105+0000] {processor.py:157} INFO - Started process (PID=3659) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:38:36.106+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:38:36.107+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:38:36.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:38:36.115+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:38:36.123+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:38:36.123+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:38:36.131+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:38:36.131+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:38:36.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T16:54:18.898+0000] {processor.py:157} INFO - Started process (PID=3715) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:54:18.899+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:54:18.900+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:54:18.900+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:54:18.913+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:54:18.924+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:54:18.924+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:54:18.936+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:54:18.936+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:54:18.945+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.049 seconds
+[2024-10-31T16:54:49.757+0000] {processor.py:157} INFO - Started process (PID=3771) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:54:49.758+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:54:49.759+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:54:49.759+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:54:49.768+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:54:49.776+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:54:49.776+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:54:49.786+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:54:49.785+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:54:49.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T16:55:20.262+0000] {processor.py:157} INFO - Started process (PID=3827) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:55:20.263+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:55:20.264+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:55:20.263+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:55:20.273+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:55:20.281+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:55:20.281+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:55:20.289+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:55:20.289+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:55:20.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T16:55:50.762+0000] {processor.py:157} INFO - Started process (PID=3883) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:55:50.763+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T16:55:50.764+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:55:50.764+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:55:50.775+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T16:55:50.783+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:55:50.783+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T16:55:50.792+0000] {logging_mixin.py:154} INFO - [2024-10-31T16:55:50.792+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T16:55:50.800+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.039 seconds
+[2024-10-31T17:09:25.780+0000] {processor.py:157} INFO - Started process (PID=3939) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:09:25.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:09:25.782+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:09:25.782+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:09:25.794+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:09:25.806+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:09:25.805+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:09:25.817+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:09:25.817+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:09:25.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.046 seconds
+[2024-10-31T17:19:00.672+0000] {processor.py:157} INFO - Started process (PID=3995) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:19:00.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:19:00.673+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:19:00.673+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:19:00.682+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:19:00.689+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:19:00.689+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:19:00.698+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:19:00.698+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:19:00.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.033 seconds
+[2024-10-31T17:19:31.418+0000] {processor.py:157} INFO - Started process (PID=4051) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:19:31.418+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:19:31.419+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:19:31.419+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:19:31.428+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:19:31.436+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:19:31.436+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:19:31.444+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:19:31.444+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:19:31.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T17:20:01.957+0000] {processor.py:157} INFO - Started process (PID=4107) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:20:01.957+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:20:01.958+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:20:01.958+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:20:01.968+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:20:01.977+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:20:01.977+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:20:01.985+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:20:01.985+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:20:01.991+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T17:27:51.837+0000] {processor.py:157} INFO - Started process (PID=4163) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:27:51.838+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:27:51.839+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:27:51.839+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:27:51.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:27:51.864+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:27:51.864+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:27:51.878+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:27:51.878+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:27:51.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.055 seconds
+[2024-10-31T17:28:22.572+0000] {processor.py:157} INFO - Started process (PID=4219) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:28:22.572+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:28:22.573+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:28:22.573+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:28:22.583+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:28:22.591+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:28:22.591+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:28:22.600+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:28:22.599+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:28:22.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T17:45:40.953+0000] {processor.py:157} INFO - Started process (PID=4275) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:45:40.954+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:45:40.955+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:45:40.955+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:45:40.967+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:45:40.978+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:45:40.978+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:45:40.989+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:45:40.988+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:45:40.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.045 seconds
+[2024-10-31T17:46:11.763+0000] {processor.py:157} INFO - Started process (PID=4331) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:46:11.764+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:46:11.765+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:46:11.765+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:46:11.775+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:46:11.783+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:46:11.783+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:46:11.792+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:46:11.792+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:46:11.798+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T17:46:42.277+0000] {processor.py:157} INFO - Started process (PID=4387) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:46:42.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:46:42.278+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:46:42.278+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:46:42.288+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:46:42.296+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:46:42.296+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:46:42.305+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:46:42.305+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:46:42.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T17:54:05.357+0000] {processor.py:157} INFO - Started process (PID=4443) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:54:05.357+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:54:05.359+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:54:05.358+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:54:05.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:54:05.381+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:54:05.380+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:54:05.393+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:54:05.393+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:54:05.402+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.046 seconds
+[2024-10-31T17:54:36.127+0000] {processor.py:157} INFO - Started process (PID=4499) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:54:36.127+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:54:36.128+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:54:36.128+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:54:36.137+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:54:36.145+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:54:36.145+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:54:36.153+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:54:36.153+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:54:36.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.033 seconds
+[2024-10-31T17:55:06.636+0000] {processor.py:157} INFO - Started process (PID=4555) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:55:06.636+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:55:06.637+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:55:06.637+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:55:06.646+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:55:06.655+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:55:06.654+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:55:06.663+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:55:06.663+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:55:06.669+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T17:55:37.146+0000] {processor.py:157} INFO - Started process (PID=4611) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:55:37.146+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:55:37.147+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:55:37.147+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:55:37.156+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:55:37.165+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:55:37.165+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:55:37.173+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:55:37.173+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:55:37.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T17:56:07.647+0000] {processor.py:157} INFO - Started process (PID=4667) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:56:07.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T17:56:07.649+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:56:07.649+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:56:07.658+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T17:56:07.666+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:56:07.666+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T17:56:07.674+0000] {logging_mixin.py:154} INFO - [2024-10-31T17:56:07.674+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T17:56:07.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:01:09.490+0000] {processor.py:157} INFO - Started process (PID=4723) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:01:09.491+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:01:09.493+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:01:09.493+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:01:09.505+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:01:09.517+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:01:09.516+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:01:09.530+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:01:09.530+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:01:09.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.052 seconds
+[2024-10-31T18:01:40.286+0000] {processor.py:157} INFO - Started process (PID=4778) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:01:40.286+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:01:40.287+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:01:40.287+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:01:40.297+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:01:40.305+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:01:40.305+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:01:40.313+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:01:40.313+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:01:40.319+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T18:02:10.832+0000] {processor.py:157} INFO - Started process (PID=4834) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:02:10.832+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:02:10.833+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:02:10.833+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:02:10.843+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:02:10.851+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:02:10.851+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:02:10.859+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:02:10.859+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:02:10.865+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T18:08:18.221+0000] {processor.py:157} INFO - Started process (PID=4890) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:08:18.222+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:08:18.223+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:08:18.223+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:08:18.232+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:08:18.240+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:08:18.240+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:08:18.249+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:08:18.249+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:08:18.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T18:08:48.944+0000] {processor.py:157} INFO - Started process (PID=4946) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:08:48.944+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:08:48.945+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:08:48.945+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:08:48.954+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:08:48.962+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:08:48.962+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:08:48.971+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:08:48.971+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:08:48.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:09:19.353+0000] {processor.py:157} INFO - Started process (PID=5002) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:09:19.354+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:09:19.355+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:09:19.355+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:09:19.364+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:09:19.372+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:09:19.372+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:09:19.380+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:09:19.380+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:09:19.386+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:09:49.815+0000] {processor.py:157} INFO - Started process (PID=5058) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:09:49.816+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:09:49.817+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:09:49.817+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:09:49.826+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:09:49.833+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:09:49.833+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:09:49.842+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:09:49.842+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:09:49.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:10:20.302+0000] {processor.py:157} INFO - Started process (PID=5114) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:10:20.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:10:20.303+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:10:20.303+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:10:20.312+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:10:20.320+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:10:20.320+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:10:20.328+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:10:20.328+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:10:20.334+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.033 seconds
+[2024-10-31T18:11:03.033+0000] {processor.py:157} INFO - Started process (PID=5170) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:11:03.034+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:11:03.035+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:11:03.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:11:03.044+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:11:03.052+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:11:03.052+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:11:03.060+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:11:03.060+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:11:03.066+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:11:33.539+0000] {processor.py:157} INFO - Started process (PID=5226) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:11:33.540+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:11:33.541+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:11:33.541+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:11:33.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:11:33.559+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:11:33.558+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:11:33.567+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:11:33.567+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:11:33.573+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T18:12:04.064+0000] {processor.py:157} INFO - Started process (PID=5282) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:12:04.064+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:12:04.065+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:12:04.065+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:12:04.074+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:12:04.082+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:12:04.082+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:12:04.091+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:12:04.091+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:12:04.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:12:34.627+0000] {processor.py:157} INFO - Started process (PID=5338) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:12:34.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:12:34.628+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:12:34.628+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:12:34.637+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:12:34.645+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:12:34.645+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:12:34.654+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:12:34.654+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:12:34.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:13:05.138+0000] {processor.py:157} INFO - Started process (PID=5394) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:13:05.139+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:13:05.140+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:13:05.140+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:13:05.152+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:13:05.161+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:13:05.161+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:13:05.171+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:13:05.171+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:13:05.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.042 seconds
+[2024-10-31T18:21:17.556+0000] {processor.py:157} INFO - Started process (PID=5450) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:21:17.556+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:21:17.557+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:21:17.557+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:21:17.566+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:21:17.574+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:21:17.573+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:21:17.582+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:21:17.582+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:21:17.588+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.033 seconds
+[2024-10-31T18:21:48.162+0000] {processor.py:157} INFO - Started process (PID=5506) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:21:48.163+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:21:48.164+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:21:48.163+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:21:48.173+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:21:48.181+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:21:48.181+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:21:48.190+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:21:48.190+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:21:48.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T18:22:18.730+0000] {processor.py:157} INFO - Started process (PID=5562) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:22:18.731+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:22:18.732+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:22:18.732+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:22:18.741+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:22:18.749+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:22:18.749+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:22:18.758+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:22:18.758+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:22:18.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T18:22:49.223+0000] {processor.py:157} INFO - Started process (PID=5618) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:22:49.224+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:22:49.225+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:22:49.225+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:22:49.234+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:22:49.241+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:22:49.241+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:22:49.250+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:22:49.250+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:22:49.255+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.033 seconds
+[2024-10-31T18:23:19.711+0000] {processor.py:157} INFO - Started process (PID=5674) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:23:19.711+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:23:19.712+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:23:19.712+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:23:19.722+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:23:19.730+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:23:19.730+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:23:19.738+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:23:19.738+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:23:19.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:23:50.208+0000] {processor.py:157} INFO - Started process (PID=5730) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:23:50.209+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:23:50.210+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:23:50.210+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:23:50.219+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:23:50.227+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:23:50.227+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:23:50.237+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:23:50.237+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:23:50.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T18:28:57.559+0000] {processor.py:157} INFO - Started process (PID=5785) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:28:57.560+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:28:57.561+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:28:57.561+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:28:57.572+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:28:57.583+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:28:57.583+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:28:57.595+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:28:57.595+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:28:57.604+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.046 seconds
+[2024-10-31T18:29:28.348+0000] {processor.py:157} INFO - Started process (PID=5841) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:29:28.349+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:29:28.349+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:29:28.349+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:29:28.359+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:29:28.367+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:29:28.366+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:29:28.375+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:29:28.375+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:29:28.381+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:29:58.824+0000] {processor.py:157} INFO - Started process (PID=5897) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:29:58.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:29:58.825+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:29:58.825+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:29:58.834+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:29:58.842+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:29:58.842+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:29:58.850+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:29:58.850+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:29:58.856+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:30:29.347+0000] {processor.py:157} INFO - Started process (PID=5953) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:30:29.347+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:30:29.348+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:30:29.348+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:30:29.357+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:30:29.365+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:30:29.365+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:30:29.373+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:30:29.373+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:30:29.379+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:46:55.256+0000] {processor.py:157} INFO - Started process (PID=6009) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:46:55.257+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:46:55.258+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:46:55.258+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:46:55.272+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:46:55.285+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:46:55.285+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:46:55.298+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:46:55.298+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:46:55.306+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.052 seconds
+[2024-10-31T18:47:26.074+0000] {processor.py:157} INFO - Started process (PID=6065) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:47:26.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:47:26.076+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:47:26.076+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:47:26.085+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:47:26.092+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:47:26.092+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:47:26.101+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:47:26.101+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:47:26.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:47:56.562+0000] {processor.py:157} INFO - Started process (PID=6121) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:47:56.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:47:56.564+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:47:56.564+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:47:56.573+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:47:56.580+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:47:56.580+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:47:56.589+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:47:56.589+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:47:56.595+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:48:27.089+0000] {processor.py:157} INFO - Started process (PID=6177) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:48:27.090+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:48:27.091+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:48:27.091+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:48:27.100+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:48:27.108+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:48:27.108+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:48:27.116+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:48:27.116+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:48:27.121+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:48:57.596+0000] {processor.py:157} INFO - Started process (PID=6233) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:48:57.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:48:57.598+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:48:57.597+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:48:57.607+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:48:57.616+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:48:57.615+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:48:57.624+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:48:57.624+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:48:57.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T18:51:58.885+0000] {processor.py:157} INFO - Started process (PID=6289) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:51:58.885+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:51:58.886+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:51:58.886+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:51:58.895+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:51:58.903+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:51:58.903+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:51:58.912+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:51:58.912+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:51:58.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:52:51.008+0000] {processor.py:157} INFO - Started process (PID=6345) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:52:51.008+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:52:51.009+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:52:51.009+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:52:51.018+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:52:51.026+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:52:51.026+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:52:51.035+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:52:51.035+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:52:51.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:53:21.591+0000] {processor.py:157} INFO - Started process (PID=6401) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:53:21.591+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:53:21.592+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:53:21.592+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:53:21.601+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:53:21.609+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:53:21.609+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:53:21.617+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:53:21.617+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:53:21.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:53:52.080+0000] {processor.py:157} INFO - Started process (PID=6457) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:53:52.080+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:53:52.081+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:53:52.081+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:53:52.091+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:53:52.099+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:53:52.098+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:53:52.107+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:53:52.107+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:53:52.113+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T18:54:22.617+0000] {processor.py:157} INFO - Started process (PID=6513) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:54:22.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:54:22.618+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:54:22.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:54:22.627+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:54:22.635+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:54:22.635+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:54:22.643+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:54:22.643+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:54:22.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.033 seconds
+[2024-10-31T18:54:53.064+0000] {processor.py:157} INFO - Started process (PID=6569) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:54:53.065+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T18:54:53.065+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:54:53.065+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:54:53.075+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T18:54:53.083+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:54:53.083+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T18:54:53.092+0000] {logging_mixin.py:154} INFO - [2024-10-31T18:54:53.092+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T18:54:53.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T19:09:46.718+0000] {processor.py:157} INFO - Started process (PID=6625) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:09:46.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:09:46.720+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:09:46.719+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:09:46.728+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:09:46.736+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:09:46.736+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:09:46.744+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:09:46.744+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:09:46.750+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T19:10:17.487+0000] {processor.py:157} INFO - Started process (PID=6681) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:10:17.487+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:10:17.488+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:10:17.488+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:10:17.498+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:10:17.506+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:10:17.506+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:10:17.514+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:10:17.514+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:10:17.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T19:10:48.006+0000] {processor.py:157} INFO - Started process (PID=6737) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:10:48.007+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:10:48.008+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:10:48.008+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:10:48.017+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:10:48.026+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:10:48.026+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:10:48.034+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:10:48.034+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:10:48.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T19:22:02.595+0000] {processor.py:157} INFO - Started process (PID=6793) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:22:02.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:22:02.596+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:22:02.596+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:22:02.608+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:22:02.619+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:22:02.618+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:22:02.632+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:22:02.631+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:22:02.642+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.049 seconds
+[2024-10-31T19:22:33.280+0000] {processor.py:157} INFO - Started process (PID=6849) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:22:33.280+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:22:33.281+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:22:33.281+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:22:33.290+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:22:33.298+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:22:33.298+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:22:33.306+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:22:33.306+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:22:33.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T19:30:55.132+0000] {processor.py:157} INFO - Started process (PID=6905) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:30:55.132+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:30:55.134+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:30:55.133+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:30:55.147+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:30:55.158+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:30:55.158+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:30:55.169+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:30:55.169+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:30:55.177+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.047 seconds
+[2024-10-31T19:31:25.916+0000] {processor.py:157} INFO - Started process (PID=6961) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:31:25.916+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:31:25.917+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:31:25.917+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:31:25.927+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:31:25.934+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:31:25.934+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:31:25.943+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:31:25.943+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:31:25.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.034 seconds
+[2024-10-31T19:31:58.094+0000] {processor.py:157} INFO - Started process (PID=7017) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:31:58.094+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:31:58.095+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:31:58.095+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:31:58.104+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:31:58.112+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:31:58.111+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:31:58.120+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:31:58.120+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:31:58.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.033 seconds
+[2024-10-31T19:33:58.824+0000] {processor.py:157} INFO - Started process (PID=7073) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:33:58.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:33:58.826+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:33:58.826+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:33:58.835+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:33:58.844+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:33:58.844+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:33:58.853+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:33:58.852+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:33:58.858+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.035 seconds
+[2024-10-31T19:36:38.495+0000] {processor.py:157} INFO - Started process (PID=7129) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:36:38.495+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:36:38.497+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:36:38.497+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:36:38.511+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:36:38.523+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:36:38.523+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:36:38.537+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:36:38.537+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:36:38.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.054 seconds
+[2024-10-31T19:37:09.198+0000] {processor.py:157} INFO - Started process (PID=7185) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:37:09.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:37:09.199+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:37:09.199+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:37:09.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:37:09.218+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:37:09.217+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:37:09.226+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:37:09.226+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:37:09.232+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds
+[2024-10-31T19:37:39.632+0000] {processor.py:157} INFO - Started process (PID=7241) to work on /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:37:39.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/zone_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:37:39.634+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:37:39.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:37:39.643+0000] {processor.py:839} INFO - DAG(s) dict_keys(['zone_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/zone_data_ingestion_gcs_dag.py
+[2024-10-31T19:37:39.652+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:37:39.651+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:37:39.660+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:37:39.660+0000] {dag.py:3722} INFO - Setting next_dagrun for zone_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:37:39.666+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/zone_data_ingestion_gcs_dag.py took 0.036 seconds

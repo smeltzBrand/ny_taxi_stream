@@ -94,7 +94,7 @@ with DAG(
             "tableReference": {
                 "projectId": PROJECT_ID,
                 "datasetId": BIGQUERY_DATASET,
-                "tableId": "external_table",
+                "tableId": "taxi_zone_lookup",
             },
             "externalDataConfiguration": {
                 "sourceFormat": "PARQUET",
