@@ -1187,3 +1187,24 @@ ModuleNotFoundError: No module named 'request'
 [2024-10-31T19:37:39.607+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:37:39.607+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2024-10-31T19:37:39.616+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:37:39.616+0000] {dag.py:3722} INFO - Setting next_dagrun for green_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
 [2024-10-31T19:37:39.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/green_data_ingestion_gcs_dag.py took 0.039 seconds
+[2024-10-31T19:38:10.038+0000] {processor.py:157} INFO - Started process (PID=7295) to work on /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:38:10.039+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/green_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:38:10.040+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:38:10.040+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:38:10.052+0000] {processor.py:839} INFO - DAG(s) dict_keys(['green_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:38:10.064+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:38:10.063+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:38:10.074+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:38:10.074+0000] {dag.py:3722} INFO - Setting next_dagrun for green_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:38:10.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/green_data_ingestion_gcs_dag.py took 0.046 seconds
+[2024-10-31T19:38:40.576+0000] {processor.py:157} INFO - Started process (PID=7351) to work on /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:38:40.576+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/green_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:38:40.578+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:38:40.577+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:38:40.588+0000] {processor.py:839} INFO - DAG(s) dict_keys(['green_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:38:40.597+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:38:40.597+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:38:40.607+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:38:40.607+0000] {dag.py:3722} INFO - Setting next_dagrun for green_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:38:40.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/green_data_ingestion_gcs_dag.py took 0.040 seconds
+[2024-10-31T19:39:11.103+0000] {processor.py:157} INFO - Started process (PID=7407) to work on /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:39:11.104+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/green_data_ingestion_gcs_dag.py for tasks to queue
+[2024-10-31T19:39:11.106+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:39:11.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:39:11.123+0000] {processor.py:839} INFO - DAG(s) dict_keys(['green_data_ingestion_gcs_dag']) retrieved from /opt/airflow/dags/green_data_ingestion_gcs_dag.py
+[2024-10-31T19:39:11.134+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:39:11.133+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-10-31T19:39:11.147+0000] {logging_mixin.py:154} INFO - [2024-10-31T19:39:11.146+0000] {dag.py:3722} INFO - Setting next_dagrun for green_data_ingestion_gcs_dag to 2024-10-31T00:00:00+00:00, run_after=2024-11-01T00:00:00+00:00
+[2024-10-31T19:39:11.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/green_data_ingestion_gcs_dag.py took 0.055 seconds
