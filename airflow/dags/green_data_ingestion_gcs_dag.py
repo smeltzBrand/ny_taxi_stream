@@ -2,14 +2,19 @@ import os
 import logging
 import requests
 import io
+#import json
 
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 
-from google.cloud import storage
-from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+# Import Azure Key Vault libaries for secret retrieval
+from azure.identity import ClientSecretCredential
+from azure.keyvault.secrets import SecretClient
+
+from azure.storage.blob import BlobServiceClient
+from azure.synapse.spark import SparkSession
 import pyarrow.csv as pv
 import pyarrow.parquet as pq
 import pyarrow as pa
@@ -47,7 +52,6 @@ def download_data_and_concat():
 
         #Read the parquet from bytes into a PyArrow Table
         table = pq.read_table(io.BytesIO(response.content))
-
         #Write incrementally to the final parquet file
         if pq_writer is None:
             pq_writer = pq.ParquetWriter(f"{path_to_local_home}/{dataset_file}", table.schema)
