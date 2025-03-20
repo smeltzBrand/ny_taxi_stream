@@ -8,24 +8,26 @@ from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
-from airflow.providers.microsoft.azure.operators.synapse_spark import AzureSynapseSparkOperator
+from airflow.providers.microsoft.azure.operators.synapse import AzureSynapseRunSparkBatchOperator
+
+# Import custom Key Vault hook
+from hooks.azure_key_vault_hook import AzureKeyVaultHook
 
 # Import Azure Key Vault libaries for secret retrieval
-from azure.identity import ClientSecretCredential
-from azure.keyvault.secrets import SecretClient
+# from azure.identity import ClientSecretCredential
+# from azure.keyvault.secrets import SecretClient
 
 from azure.storage.blob import BlobServiceClient
-from azure.synapse.spark import SparkSession
+#from azure.synapse.spark import SparkSession
 import pyarrow.csv as pv
 import pyarrow.parquet as pq
 import pyarrow as pa
 import pandas as pd
 
 # Environment variables for Key Vault authentication and URL
-AZURE_CLIENT_ID = os.environ.get("AZURE_CLIENT_ID")
-AZURE_CLIENT_SECRET = os.environ.get("AZURE_CLIENT_SECRET")
-AZURE_TENANT_ID = os.environ.get("AZURE_TENANT_ID")
-KEY_VAULT_URL = os.environ.get("KEY_VAULT_URL")
+# AZURE_CLIENT_ID = os.environ.get("AZURE_CLIENT_ID")
+# AZURE_TENANT_ID = os.environ.get("AZURE_TENANT_ID")
+# KEY_VAULT_URL = os.environ.get("KEY_VAULT_URL")
 
 # Spark configuration values
 AZURE_CONTAINER = os.environ.get('AZURE_CONTAINER')
@@ -68,22 +70,9 @@ def download_data_and_concat():
     if pq_writer:
         pq_writer.close()
 
-def get_secret_from_keyvault(secret_name):
-    """
-    Authenticates using a service principal and retrieves the secret from Azure Key Vault.
-    """
-    credential = ClientSecretCredential(
-        tenant_id = AZURE_TENANT_ID,
-        client_id = AZURE_CLIENT_ID,
-        client_secret = AZURE_CLIENT_SECRET
-    )
-    secret_client = SecretClient(vault_url=KEY_VAULT_URL, credential=credential)
-    secret = secret_client.get_secret(secret_name)
-    return secret.value
-
 # Connection string retrieved from Key Vault.
-AZURE_STORAGE_CONNECTION_STRING = get_secret_from_keyvault("AZURE_STORAGE_CONNECTION_STRING")
-
+azure_kv_hook = AzureKeyVaultHook()
+AZURE_STORAGE_CONNECTION_STRING = azure_kv_hook.get_secret("azure-storage-connection-string")
 
 def upload_to_azure(container_name, blob_name, local_file):
     """
@@ -129,6 +118,9 @@ with DAG(
     catchup=False,
     max_active_runs=1,
     tags=['dtc-de'],
+    params={
+        "parquet_file": parquet_file,
+    },
 ) as dag:
 
     download_dataset_task = PythonOperator(
@@ -152,17 +144,20 @@ with DAG(
     #     python_callable=create_external_table,
     # )
 
-    create_external_table_task = AzureSynapseSparkOperator(
+        #synapse_workspace_name = "{{ var.value.SYNAPSE_WORKSPACE_NAME }}",
+    create_external_table_task = AzureSynapseRunSparkBatchOperator(
         task_id = 'create_external_table_task',
-        synapse_workspace_name = SYNAPSE_WORKSPACE_NAME,
-        synapse_pool_name = SYNAPSE_SPARK_POOL_NAME,
-        spark_job_name = 'CreateExternalTableJob',
-        main_definition_file='/opt/airflow/spark_jobs/create_external_table.py',
-        arguments=[
-            '{{ var.value.AZURE_STORAGE_ACCOUNT }}',
-            '{{ var.value.AZURE_CONTAINER }}'
-        ],
         azure_synapse_conn_id='azure_synapse_default',
+        synapse_pool_name = "{{ var.value.SYNAPSE_SPARK_POOL_NAME }}",
+        payload={
+            "file": 'abfss://{{ var.value.AZURE_CONTAINER }}/spark_jobs/create_external_table.py',
+            "class_name": 'CreateExternalTableJob',
+            "args": [
+                '{{ var.value.AZURE_STORAGE_ACCOUNT }}',
+                '{{ var.value.AZURE_CONTAINER }}',
+                '{{ params.parquet_file}}',
+            ]
+        },
     )
 
-    download_dataset_task >> local_to_azure_task >> create_external_table_task # format_to_parquet_task 
+    download_dataset_task >> local_to_azure_task >> create_external_table_task # format_to_parquet_task
